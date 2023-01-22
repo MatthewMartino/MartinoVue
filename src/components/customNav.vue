@@ -1,0 +1,53 @@
+<script>
+export default {
+  data() {
+    return {
+      showI: false,
+      showT: false,
+      showYT: false,
+    };
+  },
+};
+</script>
+
+<template>
+  <div class="customNav">
+    <div class="navTitle">martino hq</div>
+    <div class="navLink"><RouterLink to="/">🏠 home</RouterLink></div>
+    <div class="navLink"><RouterLink to="/about">📚 about</RouterLink></div>
+    <div class="navLink"><RouterLink to="/contact">👋 contact</RouterLink></div>
+    <div class="navLink no">
+      <RouterLink to="#">🌍 store (soon!)</RouterLink>
+    </div>
+
+    <a
+      class="socialLink"
+      v-on:mouseover="showI = true"
+      v-on:mouseleave="showI = false"
+      href="https://www.instagram.com/yupitsmartino/"
+      >📸</a
+    >
+    <a
+      class="socialLink"
+      v-on:mouseover="showT = true"
+      v-on:mouseleave="showT = false"
+      href="https://twitter.com/yupitsmartino"
+      >🐦</a
+    >
+    <a
+      class="socialLink"
+      v-on:mouseover="showYT = true"
+      v-on:mouseleave="showYT = false"
+      href="https://youtube.com/@yupitsmartino"
+      >📺</a
+    >
+  </div>
+
+  <!-- 
+  v-on:mouseleave="showT = false"
+  v-on:mouseleave="showYT = false" -->
+
+  <p class="socialTip" v-show="showI">instagram</p>
+  <p class="socialTip" v-show="showT">twitter</p>
+  <p class="socialTip" v-show="showYT">youtube</p>
+</template>

@@ -1,0 +1,182 @@
+// Import all of Bootstrap's CSS
+$dark: #101010;
+$gray: #555555;
+$white: #ffffff;
+$light: #f0f0f0;
+$disabled: #c4c4c4;
+$accent: #00d0ff;
+
+
+body {
+  background-color: $dark;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  color: $dark;
+}
+
+.heroText {
+  color: $light;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hiddenText {
+  @extend .heroText;
+  color: $accent;
+  text-decoration: underline;
+  position: absolute;
+  top: 185px;
+  left: 495px;
+  z-index: -1;
+}
+
+.heroImg {
+  display: flex;
+  justify-content: center;
+
+  img {
+    max-width: 50%;
+  }
+}
+
+.button {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 48px;
+  width: 40%;
+  padding: 20px;
+  color: $dark;
+  background-color: $light;
+  transition: 0.1s;
+
+  &:hover {
+    color: $light;
+    background-color: $accent;
+    transition: 0.1s;
+  }
+}
+
+.customNav {
+  padding: 10px;
+  background-color: $light;
+  padding-bottom: 20px;
+  border-radius: 0px 0px 25px 25px;
+}
+
+.navTitle {
+  display: inline;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+.navLink {
+  display: inline;
+  font-size: 18px;
+  margin-right: 20px;
+
+  a {
+    color: $dark;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.2s;
+  }
+
+  a:hover {
+    font-weight: bold;
+    background-color: $accent;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    transition: 0.2s;
+  }
+
+  &.no {
+    a:hover {
+      background-color: $disabled;
+      cursor: default;
+    }
+  }
+}
+
+.cardShelf {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  margin-top: 50px;
+}
+
+.card {
+  position: relative;
+  display: block;
+  min-width: 350px;
+  margin: 20px;
+  height: 250px;
+  cursor: grab;
+  background-position: top;
+  background-size: cover;
+
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0px 0px 20px;
+  }
+
+  .link {
+    background-color: $dark;
+    font-size: 40px;
+    font-weight: bolder;
+    position: absolute;
+    padding: 0px 18px 5px 20px;
+    border-radius: 100px;
+    bottom: 15px;
+    right: 15px;
+    transition: 0.2s;
+
+    &:hover {
+      background-color: $white;
+      transition: 0.2s;
+    }
+  }
+}
+
+.socialLink {
+  @media (max-width: 1050px) {
+    display: none;
+  }
+
+  display: inline;
+  float: right;
+  margin-top: 8px;
+  margin-right: 30px;
+
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  background-color: $disabled;
+}
+
+.socialTip {
+  position: relative;
+  float: right;
+  right: 2%;
+
+  color: $gray;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as o,a as e}from"./index-b2f47dd8.js";const s={},a={class:"contact"},n=e("div",{class:"heroText"},"let's get in touch!",-1),_=e("a",{href:"#"},[e("div",{class:"button"},"click to reveal email")],-1),r=[n,_];function i(d,l){return c(),o("div",a,r)}const f=t(s,[["render",i]]);export{f as default};
