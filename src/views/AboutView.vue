@@ -1,5 +1,7 @@
 <template>
   <div class="about">
-    <div class="heroText">this is my about page! woo hoo!</div>
+    <div class="heroText">just a bit about me...</div>
+
+    <img class="floatingMartino" src="../assets/img/me.png" />
   </div>
 </template>
