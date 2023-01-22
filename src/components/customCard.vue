@@ -107,7 +107,7 @@ export default {
     <div class="card">
       <div class="title">end of the line! 🚨</div>
       <div class="title">&nbsp</div>
-      <div class="title"><a href="/contact">lets talk! 🤙</a></div>
+      <div class="title"><RouterLink to="/contact">lets talk! 🤙</RouterLink></div>
     </div>
 
   </div>
