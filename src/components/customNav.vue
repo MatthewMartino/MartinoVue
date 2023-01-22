@@ -43,10 +43,6 @@ export default {
     >
   </div>
 
-  <!-- 
-  v-on:mouseleave="showT = false"
-  v-on:mouseleave="showYT = false" -->
-
   <p class="socialTip" v-show="showI">instagram</p>
   <p class="socialTip" v-show="showT">twitter</p>
   <p class="socialTip" v-show="showYT">youtube</p>

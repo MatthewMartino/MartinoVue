@@ -9,19 +9,19 @@ export default {
   data() {
     return {
       cardDataLocal: [
-        { title: 'Item 1', link: 'https://www.item1.com' },
-        { title: 'Item 2', link: 'https://www.item2.com' },
-        { title: 'Item 3', link: 'https://www.item3.com' },
-        { title: 'Item 4', link: 'https://www.item1.com' },
-        { title: 'Item 5', link: 'https://www.item2.com' },
-        { title: 'Item 6', link: 'https://www.item3.com' },
-        { title: 'Item 7', link: 'https://www.item1.com' },
-        { title: 'Item 8', link: 'https://www.item2.com' },
-        { title: 'Item 9', link: 'https://www.item3.com' },
-        { title: 'Item 10', link: 'https://www.item1.com' },
-        { title: 'Item 11', link: 'https://www.item2.com' },
-        { title: 'Item 12', link: 'https://www.item3.com' },
-        { title: 'Item 13', link: 'https://www.item3.com' },
+        { title: 'Item 1', link: '#' },
+        { title: 'Item 2', link: '#' },
+        { title: 'Item 3', link: '#' },
+        { title: 'Item 4', link: '#' },
+        { title: 'Item 5', link: '#' },
+        { title: 'Item 6', link: '#' },
+        { title: 'Item 7', link: '#' },
+        { title: 'Item 8', link: '#' },
+        { title: 'Item 9', link: '#' },
+        { title: 'Item 10', link: '#' },
+        { title: 'Item 11', link: '#' },
+        { title: 'Item 12', link: '#' },
+        { title: 'Item 13', link: '#' },
       ]
     }
   },
