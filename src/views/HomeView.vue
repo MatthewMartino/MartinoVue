@@ -1,4 +1,4 @@
-<script>
+<script allowjs="true">
 import customCard from "../components/customCard.vue";
 
 export default {
