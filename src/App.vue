@@ -16,7 +16,8 @@ export default {
 
   <RouterView />
 
-  <video id="bg-video" poster="./assets/img/space.png" autoplay loop muted>
+  <div class="bgOverlay"></div>
+  <video class="bgVideo" poster="./assets/img/space.png" autoplay loop muted>
     <source src="./assets/vid/space_min.mp4" type="video/mp4">
   </video>
 </template>
