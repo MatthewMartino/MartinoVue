@@ -55,11 +55,43 @@ i {
   color: $light;
   display: flex;
   justify-content: center;
-
   margin-top: 100px;
   margin-bottom: 20px;
   font-size: 48px;
   font-weight: bold;
+}
+
+.fofText {
+  @extend .heroText;
+  margin-bottom: 0px;
+  font-size: 200px;
+}
+
+.fofSubText {
+  @extend .fofText;
+  margin-top: -30px;
+  font-size: 32px;
+}
+
+.fofLink {
+  color: $darkgray;
+  background-color: $accent;
+  padding: 50px 0px 50px 0px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px !important;
+  font-size: 36px;
+  font-weight: bold;
+  height: 50px;
+  width: 50%;
+  margin: 0 auto;
+
+  &:hover {
+    background-color: $darkgray;
+    color: $accent;
+  }
 }
 
 .hiddenText {
@@ -190,9 +222,9 @@ i {
 
 .cardEmoji {
   font-size: 60px;
-  margin-left: 4%;
+  margin-left: 8%;
   margin-top: 11.5%;
-  letter-spacing: 25px;
+  letter-spacing: 10px;
   float: left;
 }
 
