@@ -69,6 +69,10 @@ i {
   margin-bottom: 20px;
   font-size: 48px;
   font-weight: bold;
+
+  @media (max-width: 750px) {
+    margin-top: 30px;
+  }
 }
 
 .fofText {
@@ -145,12 +149,13 @@ i {
 
 .customNav {
   padding: 10px;
-  background-color: $light;
+  background-color: $darkgray;
   padding-bottom: 20px;
   border-radius: 0px 0px 25px 25px;
 }
 
 .navTitle {
+  color: $light;
   display: inline;
   font-size: 30px;
   font-weight: bold;
@@ -164,7 +169,7 @@ i {
   margin-right: 20px;
 
   a {
-    color: $dark;
+    color: $light;
     text-decoration: none;
     border-radius: 10px;
     padding: 10px;
@@ -173,6 +178,7 @@ i {
 
   a:hover {
     font-weight: bold;
+    color: $darkgray;
     background-color: $accent;
     border-radius: 10px;
     padding: 10px 30px 10px 30px;
@@ -184,6 +190,13 @@ i {
       background-color: $disabled;
       cursor: default;
     }
+  }
+
+  @media (max-width: 750px) {
+    width: 100%;
+    display: inline-block;
+    font-size: 24px;
+    margin: 20px 0px 0px 10px;
   }
 }
 
@@ -249,12 +262,12 @@ i {
   margin-right: 30px;
   padding: 10px 15px 10px 15px;
   border-radius: 10px;
-  background-color: $disabled;
+  background-color: $accent;
 
   transition: 0.2s;
 
   &:hover {
-    background-color: $accent;
+    background-color: $light;
     transition: 0.2s;
   }
 

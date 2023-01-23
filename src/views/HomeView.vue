@@ -10,8 +10,8 @@ export default {
     return {
       cardDataLocal: [
         { title: "resume? résumé? resumé? 🤨", link: "https://mattmartino.me/download/resume.pdf", emoji: "📄"  },
-        { title: "only 999.9K subs away from 1M 🥲", link: "https://www.youtube.com/@yupitsmartino", emoji: "📺" },
         { title: "got questions? me too, email me! 🗯️", link: "https://martino.store/contact", emoji: "🤙"  },
+        { title: "only 999.9K subs away from 1M 🥲", link: "https://www.youtube.com/@yupitsmartino", emoji: "📺" },
         { title: "check out my 3 tweets here lol 🤡", link: "https://twitter.com/yupitsmartino", emoji: "🐦" },
         { title: "check out the martino history book 🦕", link: "https://martino.store/about", emoji: "👀"  },
         { title: "open source or bust... i mean it! 🛠️", link: "https://github.com/MatthewMartino", emoji: "💻"  },
