@@ -9,14 +9,13 @@ export default {
   data() {
     return {
       cardDataLocal: [
-        { title: "resume? résumé? resumé? 🤨", link: "https://mattmartino.me/download/resume.pdf", emoji: "📄"  },
-        { title: "got questions? me too, email me! 🗯️", link: "https://martino.store/contact", emoji: "🤙"  },
+        // { title: "resume? résumé? resumé? 🤨", link: "https://mattmartino.me/download/resume.pdf", emoji: "📄"  },
+        { title: "business stuff? got questions? email me!", link: "https://martino.store/contact", emoji: "🤙"  },
         { title: "only 999.9K subs away from 1M 🥲", link: "https://www.youtube.com/@yupitsmartino", emoji: "📺" },
-        { title: "check out my 3 tweets here lol 🤡", link: "https://twitter.com/yupitsmartino", emoji: "🐦" },
-        { title: "check out the martino history book 🦕", link: "https://martino.store/about", emoji: "👀"  },
-        { title: "open source or bust... i mean it! 🛠️", link: "https://github.com/MatthewMartino", emoji: "💻"  },
-        { title: "i hate meta but here's my insta rip 🥱", link: "https://www.instagram.com/yupitsmartino/", emoji: "📸" },
-        { title: "have no attention span? tiktok it is! 🤠", link: "https://www.tiktok.com/@yupitsmartino", emoji: "🤳"  }
+        { title: "check out my 3 tweets here lol ", link: "https://twitter.com/yupitsmartino", emoji: "🐦" },
+        { title: "open source or bust... like this website!", link: "https://github.com/MatthewMartino", emoji: "💻"  },
+        { title: "i hate meta but here's my insta, rip 🪦", link: "https://www.instagram.com/yupitsmartino/", emoji: "📸" },
+        { title: "have no attention span? tiktok it is! ", link: "https://www.tiktok.com/@yupitsmartino", emoji: "🤳"  }
       ]
     }
   },
@@ -24,12 +23,10 @@ export default {
 </script>
 
 <template>
-  <div class="home">
-    <div class="heroText">hey! it's me:</div>
-    <div class="heroImg"><img src="../assets/img/martino.png" /></div>
+  <div class="heroText">hey! it's me:</div>
+  <div class="heroImg"><img src="../assets/img/martino.png" /></div>
 
-    <customCard 
-      v-bind:cardData="cardDataLocal"
-    />
-  </div>
+  <customCard 
+    v-bind:cardData="cardDataLocal"
+  />
 </template>

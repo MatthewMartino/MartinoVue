@@ -1,19 +1,21 @@
 <script>
-import customButton from "../components/buttonCover.vue";
+import buttonCover from "../components/buttonCover.vue";
 
 export default {
   components: {
-    customButton,
+    buttonCover,
   },
 };
 </script>
 
 <template>
-  <div class="contact">
     <div class="heroText">let's get in touch!</div>
-    <customButton
-      buttonText="click to reveal email"
-      hiddenText="matt@prdxlabs.com"
-    />
+    <div class="defaultGrid">
+      <div />
+      <buttonCover
+        buttonText="click to reveal email"
+        hiddenText="matt@prdxlabs.com"
+      />
+      <div />
   </div>
 </template>
