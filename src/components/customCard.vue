@@ -92,7 +92,6 @@ export default {
 
 <template>
   <div class="cardShelf">
-
     <div  class="card"
       v-for="(card, index) in cardData"
       :key="card.title"
@@ -106,12 +105,5 @@ export default {
       :style="{ color: colors[index] }"
       >+</a>
     </div>
-
-    <!-- <div class="card">
-      <div class="title">end of the line! 🚨</div>
-      <div class="title">&nbsp</div>
-      <div class="title"><RouterLink to="/contact">lets talk! 🤙</RouterLink></div>
-    </div> -->
-
   </div>
 </template>
