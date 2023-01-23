@@ -3,7 +3,8 @@ export default {
   props: ['cardData'],
   data() {
     return {
-        colorList: ['#ff533d', '#ff813d', '#ffe83d', '#3dff5d', '#3dd8ff', '#5a64f4', '#b454ff', '#ff3ddb'],
+        // colorList: ['#ff533d', '#ff813d', '#ffe83d', '#3dff5d', '#3dd8ff', '#5a64f4', '#b454ff', '#ff3ddb'],
+        colorList: ['#00d0ff', '#ffffff'],
         colors: undefined,
         colorIndex: 0
     }
@@ -98,7 +99,7 @@ export default {
       :style="{ backgroundColor: colors[index] }"
     >
       <div class="title">{{ card.title }}</div>
-      <div class="cardEmoji">{{ card.emoji }}</div>
+      <div class="cardEmoji">{{ card.emoji }}{{ card.emoji }}{{ card.emoji }}</div>
       <a 
       :href="card.link"
       class="link"
@@ -106,11 +107,11 @@ export default {
       >+</a>
     </div>
 
-    <div class="card">
+    <!-- <div class="card">
       <div class="title">end of the line! 🚨</div>
       <div class="title">&nbsp</div>
       <div class="title"><RouterLink to="/contact">lets talk! 🤙</RouterLink></div>
-    </div>
+    </div> -->
 
   </div>
 </template>

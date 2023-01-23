@@ -9,19 +9,14 @@ export default {
   data() {
     return {
       cardDataLocal: [
-        { title: 'check out our youtube channel!', link: 'https://www.youtube.com/@yupitsmartino', emoji: '📺 👀 🎉' },
-        { title: 'we tweet sometimes ig', link: 'https://twitter.com/yupitsmartino', emoji: '🦆 🦤 🐓' },
-        { title: 'check out ultra-wide dog pics here', link: 'https://www.instagram.com/yupitsmartino/', emoji: '📷 🤳 📸' },
-        { title: 'Item 4', link: '#' },
-        { title: 'Item 5', link: '#' },
-        { title: 'Item 6', link: '#' },
-        { title: 'Item 7', link: '#' },
-        { title: 'Item 8', link: '#' },
-        { title: 'Item 9', link: '#' },
-        { title: 'Item 10', link: '#' },
-        { title: 'Item 11', link: '#' },
-        { title: 'Item 12', link: '#' },
-        { title: 'Item 13', link: '#' }
+        { title: "resume? résumé? resumé? 🤨", link: "https://mattmartino.me/download/resume.pdf", emoji: "📄"  },
+        { title: "only 999.9K subs away from 1M 🥲", link: "https://www.youtube.com/@yupitsmartino", emoji: "📺" },
+        { title: "got questions? me too, email me! 🗯️", link: "/contact", emoji: "🤙"  },
+        { title: "check out my 3 tweets here lol 🤡", link: "https://twitter.com/yupitsmartino", emoji: "🐦" },
+        { title: "check out the martino history book 🦕", link: "/about", emoji: "👀"  },
+        { title: "open source or bust 🥴", link: "https://github.com/MatthewMartino", emoji: "💻"  },
+        { title: "i hate meta but here's my insta rip 🥱", link: "https://www.instagram.com/yupitsmartino/", emoji: "📸" },
+        { title: "have no attention span? tiktok it is! 🤠", link: "https://www.tiktok.com/@yupitsmartino", emoji: "🤳"  }
       ]
     }
   },
