@@ -2,8 +2,7 @@
     <div class="centerGrid">
         <div />
         <div>
-            <div class="heroText" style="margin-top: 30px">hey recruiters</div>
-            <div class="heroText" style="margin: 0px 0px 30px 0px">from mrbeast 👋</div>
+            <div class="heroText" style="margin: 30px 0px 30px 0px">hey mrbeast team! 👋</div>
         </div>
         <div />
     </div>
@@ -15,7 +14,7 @@
         <div>
             <div class="buttonCard">i love software engineering</div>
             <div class="buttonCard">i love youtube (a lot)</div>
-            <div class="buttonCard" style="background-color: #00d0ff; color: #303030;">i learned vue in 3 days and made this website just for this job application lol</div>
+            <div class="buttonCard" style="background-color: #00d0ff; color: #303030;">I had never used vue before, so I made this little website just for the job application lol</div>
         </div>
         <div style="max-width: 0px;" />
   </div>
