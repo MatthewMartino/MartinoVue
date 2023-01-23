@@ -264,7 +264,7 @@ i {
 }
 
 .socialTip {
-  position: relative;
+  position: absolute;
   float: right;
   right: 2%;
 
@@ -294,5 +294,9 @@ i {
 .centerGrid {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
+}
+
+.mobileMenuToggle {
+  display: inline-block;
 }
 
