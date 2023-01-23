@@ -3,7 +3,7 @@ export default {
   props: ['cardData'],
   data() {
     return {
-        colorList: ['#00D0FF', '#B83FF4', '#F45E3F', '#F75B82', '#D0F75B', '#5BF7D0', '#825BF7'],
+        colorList: ['#ff533d', '#ff813d', '#ffe83d', '#3dff5d', '#3dd8ff', '#5a64f4', '#b454ff', '#ff3ddb'],
         colors: undefined,
         colorIndex: 0
     }
@@ -28,6 +28,7 @@ export default {
     this.colors = this.colorArrayGenerator(this.colorList.length)
   },
   mounted() {
+
     const slider = document.querySelector(".cardShelf");
     let isDown = false;
     let startX;
@@ -91,16 +92,17 @@ export default {
 <template>
   <div class="cardShelf">
 
-    <div 
-      class="card" v-for="(card, index) in cardData"
+    <div  class="card"
+      v-for="(card, index) in cardData"
       :key="card.title"
-      :style="{backgroundColor: colors[index]}"
+      :style="{ backgroundColor: colors[index] }"
     >
       <div class="title">{{ card.title }}</div>
+      <div class="cardEmoji">{{ card.emoji }}</div>
       <a 
       :href="card.link"
       class="link"
-      :style="{color: colors[index]}"
+      :style="{ color: colors[index] }"
       >+</a>
     </div>
 

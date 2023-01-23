@@ -1,5 +1,6 @@
 // Import all of Bootstrap's CSS
 $dark: #101010;
+$darkgray: #212529;
 $gray: #555555;
 $white: #ffffff;
 $light: #f0f0f0;
@@ -160,6 +161,8 @@ i {
   cursor: grab;
   background-position: top;
   background-size: cover;
+  border: 0;
+  border-radius: 15px;
 
   .title {
     font-size: 36px;
@@ -168,7 +171,7 @@ i {
   }
 
   .link {
-    background-color: $dark;
+    background-color: $darkgray;
     font-size: 40px;
     font-weight: bolder;
     position: absolute;
@@ -183,6 +186,13 @@ i {
       transition: 0.2s;
     }
   }
+}
+
+.cardEmoji {
+  font-size: 70px;
+  margin-left: 5%;
+  margin-top: 8%;
+  float: left;
 }
 
 .socialLink {
@@ -212,8 +222,8 @@ i {
   float: right;
   right: 2%;
 
-  color: $gray;
-  font-size: 32px;
+  color: rgba(0, 208, 255, 0.571);
+  font-size: 48px;
   font-weight: bold;
   font-style: italic;
   letter-spacing: 1px;

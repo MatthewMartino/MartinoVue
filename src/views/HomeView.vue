@@ -9,9 +9,9 @@ export default {
   data() {
     return {
       cardDataLocal: [
-        { title: 'Item 1', link: '#' },
-        { title: 'Item 2', link: '#' },
-        { title: 'Item 3', link: '#' },
+        { title: 'check out our youtube channel!', link: 'https://www.youtube.com/@yupitsmartino', emoji: '📺 👀 🎉' },
+        { title: 'we tweet sometimes ig', link: 'https://twitter.com/yupitsmartino', emoji: '🦆 🦤 🐓' },
+        { title: 'check out ultra-wide dog pics here', link: 'https://www.instagram.com/yupitsmartino/', emoji: '📷 🤳 📸' },
         { title: 'Item 4', link: '#' },
         { title: 'Item 5', link: '#' },
         { title: 'Item 6', link: '#' },
@@ -21,7 +21,7 @@ export default {
         { title: 'Item 10', link: '#' },
         { title: 'Item 11', link: '#' },
         { title: 'Item 12', link: '#' },
-        { title: 'Item 13', link: '#' },
+        { title: 'Item 13', link: '#' }
       ]
     }
   },
