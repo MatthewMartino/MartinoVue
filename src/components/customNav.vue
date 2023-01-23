@@ -33,7 +33,7 @@ export default {
       <div class="navLink">
         <RouterLink to="/contact">👋 contact</RouterLink>
       </div>
-      <div class="navLink">
+      <div class="navLink navDisabled">
         <RouterLink to="#">🌍 store (soon!)</RouterLink>
       </div>
     </div>
